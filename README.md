@@ -16,7 +16,7 @@ This project replicates and enhances a research paper titled **"RNN-CNN Based Ca
 
 ## 🧪 Dataset
 
-- **Source**: [Gene Expression Dataset on GitHub](https://github.com/your-username/your-repo-name/blob/main/data/your_dataset.csv)
+- **Source**: [Dataset-1](https://github.com/Sonali9867/Cancer_Prediction_Model/blob/main/DATASET-1.csv)
 - **Format**: CSV file with rows as samples and columns as gene expression features + target label
 - **Shape**: 2086 rows × 972 columns (971 gene expression features + 1 target label)
 - **Target**: Cancer type
@@ -31,9 +31,9 @@ Each row in the dataset represents a patient sample, and the columns represent n
 
 ### 🖼️ Sample Preview
 
-![Dataset Preview](results/dataset_preview.png)
+![Dataset Preview](screenshots/scr-1.jpg)
 
-> The dataset captures gene-level expression patterns and serves as the input for cancer type classification using deep learning models.
+
 
 
 ---
