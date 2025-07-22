@@ -31,7 +31,7 @@ Each row in the dataset represents a patient sample, and the columns represent n
 
 ### 🖼️ Sample Preview
 
-![Dataset Preview](screenshots/scr-1.jpg)
+(screenshots/scr-1.png)
 
 
 
