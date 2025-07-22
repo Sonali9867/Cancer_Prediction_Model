@@ -31,7 +31,10 @@ Each row in the dataset represents a patient sample, and the columns represent n
 
 ### 🖼️ Sample Preview
 
-![Dataset Preview](screenshots/scr-1.png)
+### 🖼️ Sample Preview
+
+<img src="screenshots/scr-1.png" alt="Dataset Preview" width="600"/>
+
 
 
 
