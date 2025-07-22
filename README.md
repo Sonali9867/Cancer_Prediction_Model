@@ -1,4 +1,4 @@
-# 🧬 RNN-CNN Based Cancer Prediction Model for Gene Expression
+# 🧬 Cancer Prediction Model using Dimensionality Reduction techniques and RNN-CNN Classifier
 
 This project replicates and enhances a research paper titled **"RNN-CNN Based Cancer Prediction Model for Gene Expression"**. The paper proposed a hybrid deep learning model combining **Recurrent Neural Networks (RNNs)** and **Convolutional Neural Networks (CNNs)** for cancer prediction using gene expression data. However, the original implementation showed low accuracy, prompting us to explore **feature selection** and **feature extraction** techniques to improve model performance.
 
@@ -8,7 +8,7 @@ This project replicates and enhances a research paper titled **"RNN-CNN Based Ca
 
 - **Domain**: Bioinformatics / Medical AI  
 - **Task**: Cancer prediction from gene expression data  
-- **Techniques Used**: RNN, CNN, Feature Selection, PCA, Autoencoders  
+- **Techniques Used**: RNN, CNN, Feature Selection, PCA, Autoencoders, Genetic Algorithms 
 - **Language**: Python  
 - **Libraries**: NumPy, Pandas, TensorFlow/Keras, Scikit-learn, Matplotlib  
 
@@ -16,12 +16,25 @@ This project replicates and enhances a research paper titled **"RNN-CNN Based Ca
 
 ## 🧪 Dataset
 
-- **Source**: Public gene expression datasets (e.g., TCGA or GEO)
-- **Format**: CSV files (features = genes, label = cancer type)
-- **Preprocessing Steps**:
-  - Normalization
-  - Missing value handling
-  - Label encoding
+- **Source**: [Gene Expression Dataset on GitHub](https://github.com/your-username/your-repo-name/blob/main/data/your_dataset.csv)
+- **Format**: CSV file with rows as samples and columns as gene expression features + target label
+- **Shape**: 2086 rows × 972 columns (971 gene expression features + 1 target label)
+- **Target**: Cancer type
+- **Classes** (5 types):
+  - BRCA: Breast Invasive Carcinoma
+  - KIRC: Kidney Renal Cell Carcinoma
+  - LUAD: Lung Adenocarcinoma
+  - LUSC: Lung Squamous Cell Carcinoma
+  - UCEC: Uterine Corpus Endometrial Carcinoma
+
+Each row in the dataset represents a patient sample, and the columns represent normalized RNA-Seq gene expression levels for 971 genes. The final column contains the corresponding cancer type.
+
+### 🖼️ Sample Preview
+
+![Dataset Preview](results/dataset_preview.png)
+
+> The dataset captures gene-level expression patterns and serves as the input for cancer type classification using deep learning models.
+
 
 ---
 
